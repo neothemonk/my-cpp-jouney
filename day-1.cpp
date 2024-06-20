@@ -20,4 +20,3 @@ int main() // this is like defining a function in the example of Python. the fir
     std::cout << "Hello World!"; // here, "std" is for standard and then it is followed by two colons. syntax. and then "cout" is for outputting stuff. then two less than signs called "left shift operators". then the message u want to output.
     return 0; // this is to say that the program is ended.
 }
-
