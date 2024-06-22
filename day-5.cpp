@@ -1,5 +1,4 @@
-
-/*Write a program that inputs three integers from the 
+/*Write a program that inputs three integers from the
 keyboard and print the sum, average, product, smallest, and 
 largest of these numbers.
 
@@ -113,7 +112,47 @@ int animals(int chicken, int cows, int pigs){
 // first you write a condition then a question mark then write what should happen if that condition is true and the a colon then write what should happen if that condition is not true.
 // condition ? expression_if_true : expression_if_false;
 
+/*Scientists have discovered that in four decades, the world will EXPLODE! It will also take three decades to make a spaceship to travel to a new planet that can hold the entire world population.
+You must calculate the number of people there will be in three decades from now.
+The variable population is the world population now.
+Assume that every month, someone gives birth to more people n.
+Return the number of people there will be when the spaceship is complete.
+Examples
+futurePeople(256, 2) ➞ 976
+futurePeople(3248, 6) ➞ 5408
+futurePeople(5240, 3) ➞ 6320
+
+int futurePeople(int population, int n){
+    int after_three_decades;
+    after_three_decades = population + (((n * 12) * 10) * 3);
+    return after_three_decades;
+}
+*/
+
+/*Create a function that takes a number n and returns the sum of all square numbers up to and including n.
+squaresSum(3) ➞ 14
+// 1² + 2² + 3² =
+// 1 + 4 + 9 =
+// 14 
+Examples
+squaresSum(3) ➞ 14
+squaresSum(12) ➞ 650
+squaresSum(13) ➞ 819
+Notes
+Remember that n is included in the total.
+
+int squaresSum(int num){
+    int sum = 0;
+    for (int i = 1; i <= num; i++){
+        sum += (i * i);
+    }
+    return sum;
+}
+*/
+
+
 #include <iostream>
+
 int main(){
-    std::cout<<"this was day-5"<<std::endl;
+    std::cout<< "this was day-5!" <<std::endl;
 }
